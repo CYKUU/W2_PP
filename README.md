@@ -1,2 +1,3 @@
-# W2_PP
-This is programming pattern W2 project 
+# 유한대학교 VR게임앱학과 PROGRAMMING PATTERN
+202127057
+최윤교
