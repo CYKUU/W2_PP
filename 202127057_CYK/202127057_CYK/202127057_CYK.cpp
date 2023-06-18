@@ -34,9 +34,9 @@ void Draw()
 			if (j == 0)
 				cout << "#";
 			if (i == y && j == x)
-				cout << "O";
+				cout << "\033[35mO\033[m";
 			else if (i == fruitY && j == fruitX)
-				cout << "F";
+				cout << "★";
 			else
 			{
 				bool print = false;
@@ -44,7 +44,7 @@ void Draw()
 				{
 					if (tailX[k] == j && tailY[k] == i)
 					{
-						cout << "o";
+						cout << "\033[35mO\033[0mo";
 						print = true;
 					}
 				}
@@ -149,4 +149,4 @@ int main()
 		Sleep(10); //sleep(10);
 	}
 	return 0;
-}
+} 
